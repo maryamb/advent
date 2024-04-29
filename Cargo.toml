@@ -1,0 +1,83 @@
+[package]
+name = "advent"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]] # Bin to run Day 1
+name = "day-1-p-1"
+path = "src/day_1_p_1.rs"
+
+[[bin]] # Bin to run Day 1 - Part 2
+name = "day-1-p-2"
+path = "src/day_1_p_2.rs"
+
+[[bin]] # Bin to run Day 2 - Part 1
+name = "day-2-p-1"
+path = "src/day_2_p_1.rs"
+
+[[bin]] # Bin to run Day 4 - Part 1
+name = "day-4-p-1"
+path = "src/day_4_p_1.rs"
+
+[[bin]] # Bin to run Day 4 - Part 2
+name = "day-4-p-2"
+path = "src/day_4_p_2.rs"
+
+[[bin]] # Bin to run Day 5 - Part 1
+name = "day-5-p-1"
+path = "src/day_5_p_1.rs"
+
+[[bin]] # Bin to run Day 5 - Part 2
+name = "day-5-p-2"
+path = "src/day_5_p_2.rs"
+
+[[bin]] # Bin to run Day 6 - Part 1
+name = "day-6-p-1"
+path = "src/day_6_p_1.rs"
+
+[[bin]] # Bin to run Day 7 - Part 1
+name = "day-7-p-1"
+path = "src/day_7_p_1.rs"
+
+[[bin]] # Bin to run Day 7 - Part 2
+name = "day-7-p-2"
+path = "src/day_7_p_2.rs"
+
+[[bin]] # Bin to run Day 8 - Part 1
+name = "day-8-p-1"
+path = "src/day_8_p_1.rs"
+
+[[bin]] # Bin to run Day 8 - Part 2
+name = "day-8-p-2"
+path = "src/day_8_p_2.rs"
+
+
+[[bin]] # Bin to run Day 9 - Part 1
+name = "day-9-p-1"
+path = "src/day_9_p_1.rs"
+
+[[bin]] # Bin to run Day 14 - Part 1
+name = "day-14-p-1"
+path = "src/day_14_p_1.rs"
+
+[[bin]] # Bin to run Day 14 - Part 2
+name = "day-14-p-2"
+path = "src/day_14_p_2.rs"
+
+[[bin]] # Bin to run Day 19 - Part 1
+name = "day-19-p-1"
+path = "src/day_19_p_1.rs"
+
+[[bin]] # Bin to run Day 25 - Part 1
+name = "day-25-p-1"
+path = "src/day_25_p_1.rs"
+
+
+[dependencies]
+regex = "1.10.2"
+maplit = "1.0"
+num = "0.4.1"
+priority-queue = "1.3.2"
+
+
+[build-dependencies]
