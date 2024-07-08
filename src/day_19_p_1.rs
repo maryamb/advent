@@ -8,14 +8,15 @@ use std::default::Default;
 
 // use std::iter::zip;
 // use crate::io::Error;
-use std::collections::HashMap;
+use std::collections::{HashMap, HashSet};
+
 
 #[derive(Debug)]
 enum Predicate {
   X,
   M,
   A,
-  S
+  S,
 }
 
 impl Predicate {
@@ -229,6 +230,7 @@ fn part_one() {
   let parts = rules_and_parts.1;
   println!("{:#?}", get_ratings_for_admitted_parts(&rules_map, &parts));
 }
+
 
 fn main() {
   part_one();
